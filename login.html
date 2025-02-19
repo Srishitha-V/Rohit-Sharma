@@ -6,45 +6,58 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        body{
+        body {
             background-image: url("https://media.tenor.com/Nt1AuqAbms4AAAAM/little-krishna-krishna.gif");
             background-repeat: no-repeat;
             background-position: top right;
             background-size: 1000px 800px;
         }
-        .container{
+
+        .container {
             background-color: rgb(142, 126, 211);
             width: 30%;
             padding: 20px;
         }
-        .form-field input,button{
+
+        .form-field input,
+        button {
             padding: 20px 100px;
             width: 20%;
         }
-        button{
-        padding: 20px 100px;
-        width: 50%;
-        background-color: white;
-        font-size: 1.3rem;
+
+        button {
+            padding:14px 10px;
+            width: 30%;
+            background-color: white;
         }
+
         @media (max-width:576px) {
-            body{
+            body {
                 background-image: none;
             }
-            .container{
-                width:90%
+
+            .container {
+                width: 90%
+            }
+
+            .form-field input {
+                width: 30%
+            }
+
+            button {
+                width: 30%;
             }
         }
     </style>
 </head>
 
 <body>
-        <form class="container" action="./rohit.html">
-            <h1>Login</h1>
-            <p class="form-field"><input type="text" required placeholder="Enter your name"/></p>
-           <p class="form-field"><input type="password" required placeholder="Enter your Password"/></p>
-           <button>login</button>
-        </form>
+    <form class="container" action="./rohit.html">
+        <h1>Login</h1>
+        <p class="form-field"><input type="text" required placeholder="Enter your name" /></p>
+        <p class="form-field"><input type="password" required placeholder="Enter your Password" /></p>
+        <button>login</button>
+    </form>
 </body>
 
 </html>
